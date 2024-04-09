@@ -2,10 +2,10 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$USER_HOME$/Downloads/Zecheru_Liviu-Ioan_ActivitateCTS2024-master/Zecheru_Liviu-Ioan_ActivitateCTS2024-master/Seminar4/Seminar4.iml" filepath="$USER_HOME$/Downloads/Zecheru_Liviu-Ioan_ActivitateCTS2024-master/Zecheru_Liviu-Ioan_ActivitateCTS2024-master/Seminar4/Seminar4.iml" />
       <module fileurl="file://$PROJECT_DIR$/seminar2/seminar2.iml" filepath="$PROJECT_DIR$/seminar2/seminar2.iml" />
       <module fileurl="file://$PROJECT_DIR$/seminar3/seminar3.iml" filepath="$PROJECT_DIR$/seminar3/seminar3.iml" />
       <module fileurl="file://$PROJECT_DIR$/seminar5/seminar5.iml" filepath="$PROJECT_DIR$/seminar5/seminar5.iml" />
+      <module fileurl="file://$PROJECT_DIR$/seminar6/seminar6.iml" filepath="$PROJECT_DIR$/seminar6/seminar6.iml" />
       <module fileurl="file://$PROJECT_DIR$/seminarii.iml" filepath="$PROJECT_DIR$/seminarii.iml" />
     </modules>
   </component>
