@@ -2,28 +2,20 @@ package adapter.autobuz;
 
 import java.util.GregorianCalendar;
 
-public class AbonamentCardCalatorii extends CardStb {
-    private GregorianCalendar dataExpirare;
-
-    public AbonamentCardCalatorii(GregorianCalendar dataExpirare) {
-        this.dataExpirare = dataExpirare;
-    }
-
-    public AbonamentCardCalatorii(String numeClient, String cnpClient, GregorianCalendar dataExpirare) {
+public class AbonamentCardCalatorii extends CardStb{
+    private GregorianCalendar dataExpirareAbonament;
+    public AbonamentCardCalatorii(String numeClient, String cnpClient) {
         super(numeClient, cnpClient);
-        this.dataExpirare = dataExpirare;
+        this.dataExpirareAbonament = new GregorianCalendar();
     }
+
+    private AbonamentCardCalatorii(){}
 
     @Override
     public void validareCard() {
-        if(this.dataExpirare.before(new GregorianCalendar()))
-        {
-            System.out.println("Calatorie placuta!");
-        }
+        if(this.dataExpirareAbonament.before(new GregorianCalendar()))
+            System.out.println("Călătorie plăcută!");
         else
-        {
             System.out.println("Abonamentul a expirat!");
-        }
-
     }
 }
